@@ -27,8 +27,8 @@ $(window).on('load', function() {
    * to specified (lat, lon) and zoom if all three are specified
    */
   function centerAndZoomMap(points) {
-    var lat = map.getCenter().lat, latSet = false;
-    var lon = map.getCenter().lng, lonSet = false;
+    var lat = map.getCenter().lat, latSet = 18.78378 ;
+    var lon = map.getCenter().lng, lonSet = 100.77899;
     var zoom = 12, zoomSet = false;
     var center;
 
